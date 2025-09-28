@@ -1,0 +1,7 @@
+/* vscode: disable CSS unknown at-rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
