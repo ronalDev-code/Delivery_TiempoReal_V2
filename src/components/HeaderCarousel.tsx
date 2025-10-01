@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const images = [
-  "/Delivery_TiempoReal_V2/images/ceviche-clasico.jpg",
-  "/Delivery_TiempoReal_V2/images/ceviche-mixto.jpg",
-  "/Delivery_TiempoReal_V2/images/tiradito.jpg",
+  `${import.meta.env.BASE_URL}images/ceviche-clasico.jpg`,
+  `${import.meta.env.BASE_URL}images/ceviche-mixto.jpg`,
+  `${import.meta.env.BASE_URL}images/tiradito.jpg`,
 ];
 
 const HeaderCarousel: React.FC = () => {
@@ -41,4 +41,3 @@ const HeaderCarousel: React.FC = () => {
 };
 
 export default HeaderCarousel;
-

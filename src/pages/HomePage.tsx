@@ -5,10 +5,11 @@ interface Props {
 }
 
 const images = [
-  "/Delivery_TiempoReal_V2/images/ceviche-clasico.jpg",
-  "/Delivery_TiempoReal_V2/images/leche-tigre.jpg",
-  "/Delivery_TiempoReal_V2/images/menu-bg3.jpg",
+  `${import.meta.env.BASE_URL}images/ceviche-clasico.jpg`,
+  `${import.meta.env.BASE_URL}images/leche-tigre.jpg`,
+  `${import.meta.env.BASE_URL}images/menu-bg3.jpg`,
 ];
+
 
 const HomePage: React.FC<Props> = ({ setCurrentPage }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
