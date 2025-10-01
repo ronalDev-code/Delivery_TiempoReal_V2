@@ -5,9 +5,9 @@ interface Props {
 }
 
 const images = [
-  "/images/ceviche-clasico.jpg",
-  "/images/leche-tigre.jpg",
-  "/images/menu-bg3.jpg",
+  "/Delivery_TiempoReal_V2/images/ceviche-clasico.jpg",
+  "/Delivery_TiempoReal_V2/images/leche-tigre.jpg",
+  "/Delivery_TiempoReal_V2/images/menu-bg3.jpg",
 ];
 
 const HomePage: React.FC<Props> = ({ setCurrentPage }) => {
@@ -70,3 +70,4 @@ const HomePage: React.FC<Props> = ({ setCurrentPage }) => {
 };
 
 export default HomePage;
+

@@ -26,7 +26,7 @@ const MenuPage: React.FC<Props> = ({ selectedCategory, setSelectedCategory, addT
       id="menu"
       className="p-10 rounded-xl"
       style={{
-        backgroundImage: "url(/images/menu-bg1.jpg)",
+        backgroundImage: "url(/Delivery_TiempoReal_V2/images/menu-bg1.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -85,3 +85,4 @@ const MenuPage: React.FC<Props> = ({ selectedCategory, setSelectedCategory, addT
 };
 
 export default MenuPage;
+

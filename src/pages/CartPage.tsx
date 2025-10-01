@@ -24,7 +24,7 @@ const CartPage: React.FC<Props> = ({
       id="cart"
       className="p-10 rounded-xl"
       style={{
-        backgroundImage: "url(/images/cart-bg2.jpg)",
+        backgroundImage: "url(/Delivery_TiempoReal_V2/images/cart-bg2.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -140,3 +140,4 @@ const CartPage: React.FC<Props> = ({
 };
 
 export default CartPage;
+
